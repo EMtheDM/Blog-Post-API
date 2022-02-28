@@ -1,0 +1,26 @@
+{
+  "name": "blog-post-api",
+  "version": "1.0.0",
+  "description": "A simple backend JSON API",
+  "main": "server.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EMtheDM/Blog-Post-API.git"
+  },
+  "author": "Eric Martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EMtheDM/Blog-Post-API/issues"
+  },
+  "homepage": "https://github.com/EMtheDM/Blog-Post-API#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jest": "^27.5.1",
+    "mongoose": "^6.2.3"
+  }
+}
