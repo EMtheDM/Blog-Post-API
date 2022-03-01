@@ -30,7 +30,7 @@ const getTags = (req, res) => {
         });
     }
 
-    if (direction.indexOf(direction) === -1) {
+    if (directions.indexOf(direction) === -1) {
         res.status(400).send({
             error: 'sortBy parameter is invalid!',
         });
